@@ -128,7 +128,7 @@ public class SimpleCallDetailRecord implements java.io.Serializable
 
    public SimpleCallDetailRecord(java.lang.String callingPartyNumber,
          java.lang.String calledPartyNumber, 
-         com.mapr.qss.cep.demo.telecom.models.CallType callType,
+         com.mapr.qss.cep.demo.telecom.CallType callType,
          java.util.Date prevCalledDate,
          java.util.Date calledDate, long durationInSeconds,
          java.lang.String billingPhoneNumber, long sequenceNumber, long siteId,
