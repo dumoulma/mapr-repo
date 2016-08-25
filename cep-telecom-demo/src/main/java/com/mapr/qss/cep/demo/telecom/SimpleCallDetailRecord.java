@@ -12,7 +12,7 @@ public class SimpleCallDetailRecord implements java.io.Serializable
 
    private java.lang.String callingPartyNumber;
    private java.lang.String calledPartyNumber;
-   private com.mapr.qss.cep.demo.telecom.models.CallType callType;
+   private com.mapr.qss.cep.demo.telecom.CallType callType;
    private java.util.Date prevCalledDate;
    private java.util.Date calledDate;
    private long durationInSeconds;
@@ -46,12 +46,12 @@ public class SimpleCallDetailRecord implements java.io.Serializable
       this.calledPartyNumber = calledPartyNumber;
    }
    
-   public com.mapr.qss.cep.demo.telecom.models.CallType getCallType()
+   public com.mapr.qss.cep.demo.telecom.CallType getCallType()
    {
       return this.callType;
    }
 
-   public void setCallType(com.mapr.qss.cep.demo.telecom.models.CallType callType)
+   public void setCallType(com.mapr.qss.cep.demo.telecom.CallType callType)
    {
       this.callType = callType;
    }
