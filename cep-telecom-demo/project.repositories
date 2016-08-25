@@ -11,17 +11,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>guvnor-m2-repo</id>
+        <url>http://52.197.168.194:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/maven2/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://52.197.168.194:8080/kie-drools-wb-distribution-wars-6.4.0.Final-wildfly8/maven2/</url>
-        <source>SETTINGS</source>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
   </repositories>
