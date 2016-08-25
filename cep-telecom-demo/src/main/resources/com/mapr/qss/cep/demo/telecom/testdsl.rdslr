@@ -6,7 +6,8 @@ rule "testdsl"
 	dialect "mvel"
 	when
 		>cdr : SimpleCallDetailRecord( callType == CallType.LOCATION_UPDATE , used2Gdata == true , location : siteId)
-		>exists (Coverage( )) 
+		>exists (Coverage( ) and 		SiteInfo( ) from location.
+) 
 	then
 		>channel["sms"].send(new Sms(cdr.calledPartyNumber, "details on how to switch to 3G or 4G"))
 end
