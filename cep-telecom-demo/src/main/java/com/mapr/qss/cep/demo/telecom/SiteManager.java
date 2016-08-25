@@ -1,4 +1,4 @@
-package com.mapr.qss.cep.demo.telecom.models;
+package com.mapr.qss.cep.demo.telecom;
 
 import java.util.*;
 
