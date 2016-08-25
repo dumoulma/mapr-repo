@@ -1,0 +1,9 @@
+package com.mapr.qss.cep.demo.telecom;
+
+import java.lang.Number;
+
+rule "testdsl"
+	dialect "mvel"
+	when
+	then
+end
